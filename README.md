@@ -44,6 +44,6 @@ Como avaliar qualidade, controlar custo e observar uma aplicação com LLM, usan
 2. [Golden dataset](notebooks/02_golden_dataset.ipynb): criação, congelamento e publicação no LangSmith.
 3. [Avaliação e LLM-as-judge](notebooks/03_avaliacao_llm_judge.ipynb): calibração do juiz, experimentos e detecção de regressão.
 4. [Observabilidade e custos](notebooks/04_observabilidade_custos.ipynb): tráfego simulado e custo por ferramenta.
-5. Decisão de modelo: *em breve*.
+5. [Roteamento de modelos](notebooks/05_roteamento_modelos.ipynb): baseline no `gpt-4.1`, comparação com modelos mais baratos por nível de dificuldade e validação do roteador ponta a ponta.
 
 Dados: [Hieu-Pham/kaggle_food_recipes](https://huggingface.co/datasets/Hieu-Pham/kaggle_food_recipes) (CC-BY-SA 3.0).
