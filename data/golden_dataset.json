@@ -1,0 +1,3360 @@
+[
+ {
+  "inputs": {
+   "pergunta": "O que posso cozinhar hoje com o que tenho na geladeira?",
+   "geladeira": {
+    "seed": 2026,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "bife de alcatra",
+      "quantidade": 950.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "coxa de frango",
+      "quantidade": 250.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "mamão",
+      "quantidade": 10.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "morango",
+      "quantidade": 450.0,
+      "unidade": "g",
+      "categoria": "frutas",
+      "validade": "2026-10-13"
+     },
+     {
+      "nome": "brócolis",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "molho de tomate",
+      "quantidade": 250.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-27"
+     },
+     {
+      "nome": "tofu",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "ovos e proteínas vegetais",
+      "validade": "2026-10-21"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "F1",
+   "tools_esperadas": [
+    "check_geladeira",
+    "criar_receita"
+   ],
+   "complexidade": "facil",
+   "ingredientes_prioritarios": [],
+   "ingredientes_vencidos": [],
+   "resposta_referencia": "Uma receita simples e viável só com itens da geladeira. Prioritários: nenhum. Proibidos (vencidos): nenhum.",
+   "historico_status": "acerto",
+   "historico_observacao": ""
+  },
+  "metadata": {
+   "id_cenario": "F1",
+   "complexidade": "facil",
+   "historico_status": "acerto",
+   "n_itens_geladeira": 7
+  },
+  "split": "facil"
+ },
+ {
+  "inputs": {
+   "pergunta": "Me sugere um jantar rápido, de uns 20 minutos, com o que tem aqui.",
+   "geladeira": {
+    "seed": 2027,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "geleia de morango",
+      "quantidade": 500.0,
+      "unidade": "g",
+      "categoria": "bebidas e outros",
+      "validade": "2026-10-23"
+     },
+     {
+      "nome": "coxa de frango",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "cogumelo paris",
+      "quantidade": 900.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "couve-flor",
+      "quantidade": 2.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-10"
+     },
+     {
+      "nome": "rabanete",
+      "quantidade": 3.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "iogurte natural",
+      "quantidade": 550.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-14"
+     },
+     {
+      "nome": "nata",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-17"
+     },
+     {
+      "nome": "molho shoyu",
+      "quantidade": 700.0,
+      "unidade": "ml",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-26"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "F2",
+   "tools_esperadas": [
+    "check_geladeira",
+    "criar_receita"
+   ],
+   "complexidade": "facil",
+   "ingredientes_prioritarios": [],
+   "ingredientes_vencidos": [],
+   "resposta_referencia": "Receita de até ~25 minutos com itens da geladeira. Prioritários: nenhum. Proibidos (vencidos): nenhum.",
+   "historico_status": "acerto",
+   "historico_observacao": ""
+  },
+  "metadata": {
+   "id_cenario": "F2",
+   "complexidade": "facil",
+   "historico_status": "acerto",
+   "n_itens_geladeira": 8
+  },
+  "split": "facil"
+ },
+ {
+  "inputs": {
+   "pergunta": "Quero um café da manhã reforçado com o que tenho na geladeira.",
+   "geladeira": {
+    "seed": 2028,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "peito de peru",
+      "quantidade": 300.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "abóbora cabotiá",
+      "quantidade": 400.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "batata-doce",
+      "quantidade": 4.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "cebola",
+      "quantidade": 8.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-10"
+     },
+     {
+      "nome": "mandioca",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "queijo minas",
+      "quantidade": 950.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-22"
+     },
+     {
+      "nome": "pesto",
+      "quantidade": 450.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-11-23"
+     },
+     {
+      "nome": "filé de tilápia",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "purê de batata",
+      "quantidade": 1000.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-06"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "F3",
+   "tools_esperadas": [
+    "check_geladeira",
+    "criar_receita"
+   ],
+   "complexidade": "facil",
+   "ingredientes_prioritarios": [],
+   "ingredientes_vencidos": [],
+   "resposta_referencia": "Receita adequada para café da manhã com itens da geladeira. Prioritários: nenhum. Proibidos (vencidos): nenhum.",
+   "historico_status": "erro",
+   "historico_observacao": "v0 chamou buscar_receitas_similares sem necessidade (custo ~3x maior)"
+  },
+  "metadata": {
+   "id_cenario": "F3",
+   "complexidade": "facil",
+   "historico_status": "erro",
+   "n_itens_geladeira": 9
+  },
+  "split": "facil"
+ },
+ {
+  "inputs": {
+   "pergunta": "Quais itens da minha geladeira estão vencendo?",
+   "geladeira": {
+    "seed": 2029,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "vinho branco aberto",
+      "quantidade": 300.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "bacon",
+      "quantidade": 600.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "abacate",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-02"
+     },
+     {
+      "nome": "laranja",
+      "quantidade": 8.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-10"
+     },
+     {
+      "nome": "manga",
+      "quantidade": 5.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-13"
+     },
+     {
+      "nome": "maçã",
+      "quantidade": 11.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "abobrinha",
+      "quantidade": 2.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "milho verde",
+      "quantidade": 5.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-09"
+     },
+     {
+      "nome": "filé de tilápia",
+      "quantidade": 850.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "caldo de legumes caseiro",
+      "quantidade": 800.0,
+      "unidade": "ml",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "massa fresca",
+      "quantidade": 250.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "tortilla de trigo",
+      "quantidade": 10.0,
+      "unidade": "un",
+      "categoria": "prontos e sobras",
+      "validade": "2026-09-30"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "F4",
+   "tools_esperadas": [
+    "verificar_validade"
+   ],
+   "complexidade": "facil",
+   "ingredientes_prioritarios": [
+    "abacate",
+    "caldo de legumes caseiro",
+    "massa fresca"
+   ],
+   "ingredientes_vencidos": [
+    "filé de tilápia",
+    "tortilla de trigo"
+   ],
+   "resposta_referencia": "Listar itens vencidos (descartar) e os que vencem logo. Não precisa de receita. Prioritários: ['abacate', 'caldo de legumes caseiro', 'massa fresca']. Proibidos (vencidos): ['filé de tilápia', 'tortilla de trigo'].",
+   "historico_status": "erro",
+   "historico_observacao": "v0 chamou check_geladeira + verificar_validade (redundante)"
+  },
+  "metadata": {
+   "id_cenario": "F4",
+   "complexidade": "facil",
+   "historico_status": "erro",
+   "n_itens_geladeira": 12
+  },
+  "split": "facil"
+ },
+ {
+  "inputs": {
+   "pergunta": "Qual a temperatura ideal para manter a geladeira?",
+   "geladeira": {
+    "seed": 2030,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "banana",
+      "quantidade": 4.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-14"
+     },
+     {
+      "nome": "morango",
+      "quantidade": 1000.0,
+      "unidade": "g",
+      "categoria": "frutas",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "abobrinha",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "abóbora cabotiá",
+      "quantidade": 550.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "ervilha fresca",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "repolho",
+      "quantidade": 12.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "leite integral",
+      "quantidade": 200.0,
+      "unidade": "ml",
+      "categoria": "laticínios",
+      "validade": "2026-10-19"
+     },
+     {
+      "nome": "arroz cozido",
+      "quantidade": 900.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-07"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "F5",
+   "tools_esperadas": [],
+   "complexidade": "facil",
+   "ingredientes_prioritarios": [],
+   "ingredientes_vencidos": [],
+   "resposta_referencia": "Entre 1 °C e 4 °C (nunca acima de 5 °C). Pergunta geral: nenhuma tool é necessária. Prioritários: nenhum. Proibidos (vencidos): nenhum.",
+   "historico_status": "acerto",
+   "historico_observacao": ""
+  },
+  "metadata": {
+   "id_cenario": "F5",
+   "complexidade": "facil",
+   "historico_status": "acerto",
+   "n_itens_geladeira": 8
+  },
+  "split": "facil"
+ },
+ {
+  "inputs": {
+   "pergunta": "Dá pra fazer um lanche pra levar pro trabalho com o que tem na geladeira?",
+   "geladeira": {
+    "seed": 2031,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "chocolate meio amargo",
+      "quantidade": 150.0,
+      "unidade": "g",
+      "categoria": "bebidas e outros",
+      "validade": "2026-11-02"
+     },
+     {
+      "nome": "água de coco",
+      "quantidade": 400.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-11-11"
+     },
+     {
+      "nome": "abóbora cabotiá",
+      "quantidade": 200.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "cenoura",
+      "quantidade": 11.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-09"
+     },
+     {
+      "nome": "espinafre",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-13"
+     },
+     {
+      "nome": "leite de coco",
+      "quantidade": 900.0,
+      "unidade": "ml",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-12-14"
+     },
+     {
+      "nome": "filé de tilápia",
+      "quantidade": 450.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-06"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "F6",
+   "tools_esperadas": [
+    "check_geladeira",
+    "criar_receita"
+   ],
+   "complexidade": "facil",
+   "ingredientes_prioritarios": [],
+   "ingredientes_vencidos": [],
+   "resposta_referencia": "Lanche transportável feito com itens da geladeira. Prioritários: nenhum. Proibidos (vencidos): nenhum.",
+   "historico_status": "acerto",
+   "historico_observacao": ""
+  },
+  "metadata": {
+   "id_cenario": "F6",
+   "complexidade": "facil",
+   "historico_status": "acerto",
+   "n_itens_geladeira": 7
+  },
+  "split": "facil"
+ },
+ {
+  "inputs": {
+   "pergunta": "Faz uma receita só com o que está para vencer, não quero desperdiçar nada.",
+   "geladeira": {
+    "seed": 2032,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "cerveja",
+      "quantidade": 1000.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-11-09"
+     },
+     {
+      "nome": "vinho branco aberto",
+      "quantidade": 200.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "bife de alcatra",
+      "quantidade": 1000.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "peito de peru",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "presunto",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "coentro",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "manjericão",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "salsinha",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "batata-doce",
+      "quantidade": 8.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "ervilha fresca",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "pimentão vermelho",
+      "quantidade": 5.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-13"
+     },
+     {
+      "nome": "rabanete",
+      "quantidade": 12.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "manteiga",
+      "quantidade": 900.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "queijo parmesão",
+      "quantidade": 500.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-19"
+     },
+     {
+      "nome": "leite de coco",
+      "quantidade": 1000.0,
+      "unidade": "ml",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "molho shoyu",
+      "quantidade": 400.0,
+      "unidade": "ml",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-11-05"
+     },
+     {
+      "nome": "pesto",
+      "quantidade": 250.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "grão-de-bico cozido",
+      "quantidade": 600.0,
+      "unidade": "g",
+      "categoria": "ovos e proteínas vegetais",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "lentilha cozida",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "ovos e proteínas vegetais",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "filé de tilápia",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "sardinha fresca",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "caldo de legumes caseiro",
+      "quantidade": 500.0,
+      "unidade": "ml",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "massa de pizza",
+      "quantidade": 450.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-07"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "M1",
+   "tools_esperadas": [
+    "verificar_validade",
+    "criar_receita"
+   ],
+   "complexidade": "medio",
+   "ingredientes_prioritarios": [
+    "peito de peru",
+    "presunto",
+    "filé de tilápia",
+    "manteiga",
+    "caldo de legumes caseiro",
+    "ervilha fresca"
+   ],
+   "ingredientes_vencidos": [
+    "bife de alcatra",
+    "manjericão",
+    "salsinha",
+    "leite de coco",
+    "pesto",
+    "lentilha cozida",
+    "sardinha fresca"
+   ],
+   "resposta_referencia": "Receita centrada nos itens que vencem logo, sem itens vencidos. Prioritários: ['peito de peru', 'presunto', 'filé de tilápia', 'manteiga', 'caldo de legumes caseiro', 'ervilha fresca']. Proibidos (vencidos): ['bife de alcatra', 'manjericão', 'salsinha', 'leite de coco', 'pesto', 'lentilha cozida', 'sardinha fresca'].",
+   "historico_status": "acerto",
+   "historico_observacao": ""
+  },
+  "metadata": {
+   "id_cenario": "M1",
+   "complexidade": "medio",
+   "historico_status": "acerto",
+   "n_itens_geladeira": 23
+  },
+  "split": "medio"
+ },
+ {
+  "inputs": {
+   "pergunta": "Me ajuda a usar o que vence nos próximos dias num almoço?",
+   "geladeira": {
+    "seed": 3033,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "bife de alcatra",
+      "quantidade": 550.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "peito de frango",
+      "quantidade": 700.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "coentro",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "laranja",
+      "quantidade": 12.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "abobrinha",
+      "quantidade": 3.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "alho",
+      "quantidade": 1.0,
+      "unidade": "cabeça",
+      "categoria": "hortaliças",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "chuchu",
+      "quantidade": 11.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "couve",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "ervilha fresca",
+      "quantidade": 500.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "milho verde",
+      "quantidade": 10.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "pepino",
+      "quantidade": 11.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "rabanete",
+      "quantidade": 11.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "repolho",
+      "quantidade": 6.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-02"
+     },
+     {
+      "nome": "rúcula",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "cream cheese",
+      "quantidade": 950.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "queijo parmesão",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-25"
+     },
+     {
+      "nome": "ricota",
+      "quantidade": 150.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-26"
+     },
+     {
+      "nome": "leite de coco",
+      "quantidade": 300.0,
+      "unidade": "ml",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-11-06"
+     },
+     {
+      "nome": "pesto",
+      "quantidade": 700.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "bacalhau dessalgado",
+      "quantidade": 900.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "arroz cozido",
+      "quantidade": 750.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "caldo de legumes caseiro",
+      "quantidade": 400.0,
+      "unidade": "ml",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "frango desfiado",
+      "quantidade": 750.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "tortilla de trigo",
+      "quantidade": 5.0,
+      "unidade": "un",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-06"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "M2",
+   "tools_esperadas": [
+    "verificar_validade",
+    "criar_receita"
+   ],
+   "complexidade": "medio",
+   "ingredientes_prioritarios": [
+    "repolho",
+    "pesto",
+    "bacalhau dessalgado",
+    "chuchu",
+    "milho verde",
+    "cream cheese",
+    "laranja"
+   ],
+   "ingredientes_vencidos": [
+    "alho",
+    "rabanete"
+   ],
+   "resposta_referencia": "Almoço que aproveita os itens que vencem logo; não pode usar vencidos. Prioritários: ['repolho', 'pesto', 'bacalhau dessalgado', 'chuchu', 'milho verde', 'cream cheese', 'laranja']. Proibidos (vencidos): ['alho', 'rabanete'].",
+   "historico_status": "erro",
+   "historico_observacao": "v0 usou um item JÁ vencido na receita"
+  },
+  "metadata": {
+   "id_cenario": "M2",
+   "complexidade": "medio",
+   "historico_status": "erro",
+   "n_itens_geladeira": 24
+  },
+  "split": "medio"
+ },
+ {
+  "inputs": {
+   "pergunta": "Quero um jantar que aproveite o que está vencendo, mas pode completar com outras coisas da geladeira.",
+   "geladeira": {
+    "seed": 2034,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "chocolate meio amargo",
+      "quantidade": 550.0,
+      "unidade": "g",
+      "categoria": "bebidas e outros",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "bife de alcatra",
+      "quantidade": 400.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "costela bovina",
+      "quantidade": 150.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "cebolinha",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "gengibre",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "abacaxi",
+      "quantidade": 10.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "laranja",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "manga",
+      "quantidade": 1.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "maçã",
+      "quantidade": 4.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "pera",
+      "quantidade": 10.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "batata",
+      "quantidade": 1.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "cebola",
+      "quantidade": 9.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "mandioca",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "pimentão verde",
+      "quantidade": 8.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-10"
+     },
+     {
+      "nome": "cream cheese",
+      "quantidade": 700.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-17"
+     },
+     {
+      "nome": "creme de leite",
+      "quantidade": 250.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-25"
+     },
+     {
+      "nome": "iogurte natural",
+      "quantidade": 850.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-02"
+     },
+     {
+      "nome": "queijo minas",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "queijo muçarela",
+      "quantidade": 250.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "queijo parmesão",
+      "quantidade": 1000.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "tofu",
+      "quantidade": 200.0,
+      "unidade": "g",
+      "categoria": "ovos e proteínas vegetais",
+      "validade": "2026-10-20"
+     },
+     {
+      "nome": "bacalhau dessalgado",
+      "quantidade": 950.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "camarão",
+      "quantidade": 150.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "arroz cozido",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "massa fresca",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "M3",
+   "tools_esperadas": [
+    "check_geladeira",
+    "verificar_validade",
+    "criar_receita"
+   ],
+   "complexidade": "medio",
+   "ingredientes_prioritarios": [
+    "iogurte natural",
+    "chocolate meio amargo",
+    "mandioca",
+    "bacalhau dessalgado",
+    "massa fresca",
+    "costela bovina",
+    "laranja",
+    "queijo muçarela",
+    "cebola",
+    "camarão",
+    "arroz cozido"
+   ],
+   "ingredientes_vencidos": [
+    "cebolinha",
+    "manga",
+    "maçã",
+    "pera"
+   ],
+   "resposta_referencia": "Jantar que usa os itens que vencem logo, complementado por outros itens da geladeira. Prioritários: ['iogurte natural', 'chocolate meio amargo', 'mandioca', 'bacalhau dessalgado', 'massa fresca', 'costela bovina', 'laranja', 'queijo muçarela', 'cebola', 'camarão', 'arroz cozido']. Proibidos (vencidos): ['cebolinha', 'manga', 'maçã', 'pera'].",
+   "historico_status": "acerto",
+   "historico_observacao": ""
+  },
+  "metadata": {
+   "id_cenario": "M3",
+   "complexidade": "medio",
+   "historico_status": "acerto",
+   "n_itens_geladeira": 25
+  },
+  "split": "medio"
+ },
+ {
+  "inputs": {
+   "pergunta": "Tenho coisas quase estragando aqui, monta uma sopa com elas?",
+   "geladeira": {
+    "seed": 3035,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "abacate",
+      "quantidade": 10.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-13"
+     },
+     {
+      "nome": "banana",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "maracujá",
+      "quantidade": 2.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-10"
+     },
+     {
+      "nome": "pera",
+      "quantidade": 6.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-09"
+     },
+     {
+      "nome": "batata",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "berinjela",
+      "quantidade": 9.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "chuchu",
+      "quantidade": 5.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "espinafre",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "vagem",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "iogurte natural",
+      "quantidade": 200.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-16"
+     },
+     {
+      "nome": "ricota",
+      "quantidade": 500.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-13"
+     },
+     {
+      "nome": "maionese",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-11-26"
+     },
+     {
+      "nome": "mostarda",
+      "quantidade": 400.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "filé de tilápia",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "pão de forma",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-07"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "M4",
+   "tools_esperadas": [
+    "verificar_validade",
+    "criar_receita"
+   ],
+   "complexidade": "medio",
+   "ingredientes_prioritarios": [
+    "mostarda",
+    "filé de tilápia",
+    "berinjela"
+   ],
+   "ingredientes_vencidos": [
+    "batata"
+   ],
+   "resposta_referencia": "Sopa feita com os itens que vencem logo (se fizer sentido culinário). Prioritários: ['mostarda', 'filé de tilápia', 'berinjela']. Proibidos (vencidos): ['batata'].",
+   "historico_status": "erro",
+   "historico_observacao": "v0 ignorou a validade e montou a sopa com itens que duram semanas"
+  },
+  "metadata": {
+   "id_cenario": "M4",
+   "complexidade": "medio",
+   "historico_status": "erro",
+   "n_itens_geladeira": 15
+  },
+  "split": "medio"
+ },
+ {
+  "inputs": {
+   "pergunta": "Antes de ir ao mercado quero gastar o que vence logo. Uma receita para 4 pessoas, por favor.",
+   "geladeira": {
+    "seed": 2036,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "bacon",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "cebolinha",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "hortelã",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "manjericão",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "maracujá",
+      "quantidade": 8.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "milho verde",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "pepino",
+      "quantidade": 8.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "quiabo",
+      "quantidade": 400.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-02"
+     },
+     {
+      "nome": "rúcula",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-13"
+     },
+     {
+      "nome": "cream cheese",
+      "quantidade": 1000.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "iogurte natural",
+      "quantidade": 250.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "queijo minas",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-21"
+     },
+     {
+      "nome": "queijo muçarela",
+      "quantidade": 150.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-22"
+     },
+     {
+      "nome": "requeijão",
+      "quantidade": 750.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "extrato de tomate",
+      "quantidade": 750.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-12-28"
+     },
+     {
+      "nome": "maionese",
+      "quantidade": 250.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-01"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "M5",
+   "tools_esperadas": [
+    "verificar_validade",
+    "criar_receita"
+   ],
+   "complexidade": "medio",
+   "ingredientes_prioritarios": [
+    "quiabo",
+    "manjericão",
+    "cebolinha",
+    "milho verde"
+   ],
+   "ingredientes_vencidos": [
+    "bacon",
+    "hortelã",
+    "requeijão",
+    "maionese"
+   ],
+   "resposta_referencia": "Receita para 4 porções priorizando o que vence logo. Prioritários: ['quiabo', 'manjericão', 'cebolinha', 'milho verde']. Proibidos (vencidos): ['bacon', 'hortelã', 'requeijão', 'maionese'].",
+   "historico_status": "acerto",
+   "historico_observacao": ""
+  },
+  "metadata": {
+   "id_cenario": "M5",
+   "complexidade": "medio",
+   "historico_status": "acerto",
+   "n_itens_geladeira": 16
+  },
+  "split": "medio"
+ },
+ {
+  "inputs": {
+   "pergunta": "Quero algo no estilo de um risoto, inspirado em receitas clássicas, usando o que vence logo e o resto da geladeira.",
+   "geladeira": {
+    "seed": 2037,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "geleia de morango",
+      "quantidade": 1000.0,
+      "unidade": "g",
+      "categoria": "bebidas e outros",
+      "validade": "2026-10-31"
+     },
+     {
+      "nome": "suco de laranja",
+      "quantidade": 900.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "água de coco",
+      "quantidade": 200.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-10-10"
+     },
+     {
+      "nome": "costela bovina",
+      "quantidade": 450.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "linguiça toscana",
+      "quantidade": 200.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "peito de frango",
+      "quantidade": 400.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "presunto",
+      "quantidade": 450.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "cebolinha",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "hortelã",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "manjericão",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "abacaxi",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "limão",
+      "quantidade": 4.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-14"
+     },
+     {
+      "nome": "mamão",
+      "quantidade": 8.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "manga",
+      "quantidade": 8.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "maracujá",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "pera",
+      "quantidade": 1.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "alho",
+      "quantidade": 3.0,
+      "unidade": "cabeça",
+      "categoria": "hortaliças",
+      "validade": "2026-10-13"
+     },
+     {
+      "nome": "beterraba",
+      "quantidade": 8.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "cebola",
+      "quantidade": 6.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "cogumelo paris",
+      "quantidade": 850.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "couve",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "ervilha fresca",
+      "quantidade": 400.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "mandioca",
+      "quantidade": 900.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-14"
+     },
+     {
+      "nome": "milho verde",
+      "quantidade": 8.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-14"
+     },
+     {
+      "nome": "pepino",
+      "quantidade": 4.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "pimentão verde",
+      "quantidade": 3.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-13"
+     },
+     {
+      "nome": "pimentão vermelho",
+      "quantidade": 11.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "quiabo",
+      "quantidade": 600.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "repolho",
+      "quantidade": 9.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "rúcula",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "tomate",
+      "quantidade": 11.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-14"
+     },
+     {
+      "nome": "vagem",
+      "quantidade": 400.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "cream cheese",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "manteiga",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "requeijão",
+      "quantidade": 550.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "ricota",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "extrato de tomate",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "molho de tomate",
+      "quantidade": 200.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-02"
+     },
+     {
+      "nome": "lentilha cozida",
+      "quantidade": 400.0,
+      "unidade": "g",
+      "categoria": "ovos e proteínas vegetais",
+      "validade": "2026-10-31"
+     },
+     {
+      "nome": "ovos",
+      "quantidade": 1.0,
+      "unidade": "un",
+      "categoria": "ovos e proteínas vegetais",
+      "validade": "2026-10-18"
+     },
+     {
+      "nome": "filé de tilápia",
+      "quantidade": 500.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "salmão",
+      "quantidade": 450.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "arroz cozido",
+      "quantidade": 950.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "pão de forma",
+      "quantidade": 8.0,
+      "unidade": "un",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-06"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "D1",
+   "tools_esperadas": [
+    "buscar_receitas_similares",
+    "check_geladeira",
+    "verificar_validade",
+    "criar_receita"
+   ],
+   "complexidade": "dificil",
+   "ingredientes_prioritarios": [
+    "molho de tomate",
+    "peito de frango",
+    "presunto",
+    "manjericão",
+    "cebolinha",
+    "hortelã",
+    "pera",
+    "cogumelo paris",
+    "arroz cozido",
+    "manga",
+    "rúcula"
+   ],
+   "ingredientes_vencidos": [
+    "suco de laranja",
+    "linguiça toscana",
+    "mamão",
+    "maracujá",
+    "couve",
+    "repolho",
+    "cream cheese",
+    "manteiga",
+    "extrato de tomate",
+    "salmão"
+   ],
+   "resposta_referencia": "Prato estilo risoto inspirado em receitas reais, adaptado à geladeira, priorizando o que vence. Prioritários: ['molho de tomate', 'peito de frango', 'presunto', 'manjericão', 'cebolinha', 'hortelã', 'pera', 'cogumelo paris', 'arroz cozido', 'manga', 'rúcula']. Proibidos (vencidos): ['suco de laranja', 'linguiça toscana', 'mamão', 'maracujá', 'couve', 'repolho', 'cream cheese', 'manteiga', 'extrato de tomate', 'salmão'].",
+   "historico_status": "acerto",
+   "historico_observacao": ""
+  },
+  "metadata": {
+   "id_cenario": "D1",
+   "complexidade": "dificil",
+   "historico_status": "acerto",
+   "n_itens_geladeira": 44
+  },
+  "split": "dificil"
+ },
+ {
+  "inputs": {
+   "pergunta": "Vou receber amigos para jantar: me inspira numa receita conhecida de curry, priorizando o que está vencendo.",
+   "geladeira": {
+    "seed": 2038,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "cerveja",
+      "quantidade": 500.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-11-30"
+     },
+     {
+      "nome": "chocolate meio amargo",
+      "quantidade": 450.0,
+      "unidade": "g",
+      "categoria": "bebidas e outros",
+      "validade": "2026-11-25"
+     },
+     {
+      "nome": "água de coco",
+      "quantidade": 900.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "bacon",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "bife de alcatra",
+      "quantidade": 1000.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "costela bovina",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "coxa de frango",
+      "quantidade": 550.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "peito de frango",
+      "quantidade": 500.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "alecrim",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "salsinha",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "abacaxi",
+      "quantidade": 10.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "banana",
+      "quantidade": 1.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "laranja",
+      "quantidade": 5.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-10"
+     },
+     {
+      "nome": "mamão",
+      "quantidade": 10.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-14"
+     },
+     {
+      "nome": "maracujá",
+      "quantidade": 8.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-02"
+     },
+     {
+      "nome": "maçã",
+      "quantidade": 4.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "pera",
+      "quantidade": 6.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "abóbora cabotiá",
+      "quantidade": 200.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-14"
+     },
+     {
+      "nome": "batata",
+      "quantidade": 12.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "batata-doce",
+      "quantidade": 3.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "berinjela",
+      "quantidade": 3.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-09"
+     },
+     {
+      "nome": "chuchu",
+      "quantidade": 11.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "couve-flor",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-09"
+     },
+     {
+      "nome": "ervilha fresca",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "espinafre",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-16"
+     },
+     {
+      "nome": "mandioca",
+      "quantidade": 300.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "pimentão vermelho",
+      "quantidade": 5.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "rúcula",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "cream cheese",
+      "quantidade": 800.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-23"
+     },
+     {
+      "nome": "creme de leite",
+      "quantidade": 250.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-22"
+     },
+     {
+      "nome": "iogurte natural",
+      "quantidade": 200.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "nata",
+      "quantidade": 800.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-02"
+     },
+     {
+      "nome": "queijo coalho",
+      "quantidade": 750.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-17"
+     },
+     {
+      "nome": "queijo minas",
+      "quantidade": 150.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-27"
+     },
+     {
+      "nome": "queijo parmesão",
+      "quantidade": 400.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "requeijão",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-26"
+     },
+     {
+      "nome": "extrato de tomate",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-11-26"
+     },
+     {
+      "nome": "maionese",
+      "quantidade": 450.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "molho de tomate",
+      "quantidade": 500.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-27"
+     },
+     {
+      "nome": "grão-de-bico cozido",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "ovos e proteínas vegetais",
+      "validade": "2026-11-01"
+     },
+     {
+      "nome": "ovos",
+      "quantidade": 1.0,
+      "unidade": "un",
+      "categoria": "ovos e proteínas vegetais",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "tofu",
+      "quantidade": 450.0,
+      "unidade": "g",
+      "categoria": "ovos e proteínas vegetais",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "frango desfiado",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "pão de forma",
+      "quantidade": 10.0,
+      "unidade": "un",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "tortilla de trigo",
+      "quantidade": 5.0,
+      "unidade": "un",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-05"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "D2",
+   "tools_esperadas": [
+    "buscar_receitas_similares",
+    "check_geladeira",
+    "verificar_validade",
+    "criar_receita"
+   ],
+   "complexidade": "dificil",
+   "ingredientes_prioritarios": [
+    "maracujá",
+    "nata",
+    "bacon",
+    "mandioca",
+    "tofu",
+    "frango desfiado",
+    "pão de forma",
+    "banana",
+    "ervilha fresca",
+    "tortilla de trigo"
+   ],
+   "ingredientes_vencidos": [
+    "batata-doce",
+    "iogurte natural",
+    "maionese",
+    "ovos"
+   ],
+   "resposta_referencia": "Curry inspirado em receitas reais; se faltar algo típico (ex.: leite de coco), adaptar e avisar. Prioritários: ['maracujá', 'nata', 'bacon', 'mandioca', 'tofu', 'frango desfiado', 'pão de forma', 'banana', 'ervilha fresca', 'tortilla de trigo']. Proibidos (vencidos): ['batata-doce', 'iogurte natural', 'maionese', 'ovos'].",
+   "historico_status": "erro",
+   "historico_observacao": "v0 sugeriu curry com leite de coco que não estava na geladeira"
+  },
+  "metadata": {
+   "id_cenario": "D2",
+   "complexidade": "dificil",
+   "historico_status": "erro",
+   "n_itens_geladeira": 45
+  },
+  "split": "dificil"
+ },
+ {
+  "inputs": {
+   "pergunta": "Quero uma lasanha vegetariana parecida com receitas tradicionais, aproveitando o que vai estragar. Se faltar algo, me diga.",
+   "geladeira": {
+    "seed": 2039,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "cerveja",
+      "quantidade": 1000.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "chocolate meio amargo",
+      "quantidade": 800.0,
+      "unidade": "g",
+      "categoria": "bebidas e outros",
+      "validade": "2026-12-01"
+     },
+     {
+      "nome": "vinho branco aberto",
+      "quantidade": 200.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-11-05"
+     },
+     {
+      "nome": "água de coco",
+      "quantidade": 300.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-11-06"
+     },
+     {
+      "nome": "bife de alcatra",
+      "quantidade": 800.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "linguiça toscana",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "presunto",
+      "quantidade": 450.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "cebolinha",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "coentro",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "hortelã",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "abacate",
+      "quantidade": 3.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "abacaxi",
+      "quantidade": 10.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "maçã",
+      "quantidade": 2.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "pera",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "uva",
+      "quantidade": 900.0,
+      "unidade": "g",
+      "categoria": "frutas",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "abobrinha",
+      "quantidade": 6.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-09"
+     },
+     {
+      "nome": "abóbora cabotiá",
+      "quantidade": 150.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "alho",
+      "quantidade": 3.0,
+      "unidade": "cabeça",
+      "categoria": "hortaliças",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "berinjela",
+      "quantidade": 6.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "brócolis",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "cebola",
+      "quantidade": 9.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "cogumelo paris",
+      "quantidade": 200.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-09"
+     },
+     {
+      "nome": "pimentão verde",
+      "quantidade": 2.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "pimentão vermelho",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "quiabo",
+      "quantidade": 750.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "rabanete",
+      "quantidade": 6.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-16"
+     },
+     {
+      "nome": "repolho",
+      "quantidade": 10.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "rúcula",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-14"
+     },
+     {
+      "nome": "tomate",
+      "quantidade": 11.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "creme de leite",
+      "quantidade": 500.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-24"
+     },
+     {
+      "nome": "iogurte natural",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "manteiga",
+      "quantidade": 150.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "queijo minas",
+      "quantidade": 300.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-22"
+     },
+     {
+      "nome": "queijo muçarela",
+      "quantidade": 950.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "queijo parmesão",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-18"
+     },
+     {
+      "nome": "ricota",
+      "quantidade": 900.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "leite de coco",
+      "quantidade": 700.0,
+      "unidade": "ml",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-11-14"
+     },
+     {
+      "nome": "maionese",
+      "quantidade": 500.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-02"
+     },
+     {
+      "nome": "molho de tomate",
+      "quantidade": 250.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-11-26"
+     },
+     {
+      "nome": "pesto",
+      "quantidade": 500.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-12-15"
+     },
+     {
+      "nome": "ovos",
+      "quantidade": 3.0,
+      "unidade": "un",
+      "categoria": "ovos e proteínas vegetais",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "bacalhau dessalgado",
+      "quantidade": 150.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "arroz cozido",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "feijão cozido",
+      "quantidade": 600.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "frango desfiado",
+      "quantidade": 900.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "massa fresca",
+      "quantidade": 150.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-09-30"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "D3",
+   "tools_esperadas": [
+    "buscar_receitas_similares",
+    "check_geladeira",
+    "verificar_validade",
+    "criar_receita"
+   ],
+   "complexidade": "dificil",
+   "ingredientes_prioritarios": [
+    "maionese",
+    "cebola",
+    "repolho",
+    "arroz cozido",
+    "cerveja",
+    "pera",
+    "berinjela",
+    "abacaxi",
+    "pimentão verde",
+    "pimentão vermelho",
+    "quiabo",
+    "frango desfiado"
+   ],
+   "ingredientes_vencidos": [
+    "abóbora cabotiá",
+    "brócolis",
+    "massa fresca"
+   ],
+   "resposta_referencia": "Lasanha SEM carne, inspirada em receitas reais; deve dizer claramente o que falta. Prioritários: ['maionese', 'cebola', 'repolho', 'arroz cozido', 'cerveja', 'pera', 'berinjela', 'abacaxi', 'pimentão verde', 'pimentão vermelho', 'quiabo', 'frango desfiado']. Proibidos (vencidos): ['abóbora cabotiá', 'brócolis', 'massa fresca'].",
+   "historico_status": "erro",
+   "historico_observacao": "v0 inventou massa de lasanha sem avisar que ela não estava na geladeira"
+  },
+  "metadata": {
+   "id_cenario": "D3",
+   "complexidade": "dificil",
+   "historico_status": "erro",
+   "n_itens_geladeira": 46
+  },
+  "split": "dificil"
+ },
+ {
+  "inputs": {
+   "pergunta": "Me mostra receitas parecidas com shakshuka e adapta pro que eu tenho, usando primeiro o que está vencendo.",
+   "geladeira": {
+    "seed": 2040,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "vinho branco aberto",
+      "quantidade": 800.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-11-15"
+     },
+     {
+      "nome": "costela bovina",
+      "quantidade": 850.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "coxa de frango",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "peito de peru",
+      "quantidade": 950.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "presunto",
+      "quantidade": 500.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "cebolinha",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "hortelã",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "laranja",
+      "quantidade": 1.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "limão",
+      "quantidade": 4.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "mamão",
+      "quantidade": 1.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-09"
+     },
+     {
+      "nome": "maracujá",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "morango",
+      "quantidade": 250.0,
+      "unidade": "g",
+      "categoria": "frutas",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "pera",
+      "quantidade": 9.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "uva",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "frutas",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "abobrinha",
+      "quantidade": 4.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "abóbora cabotiá",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-10"
+     },
+     {
+      "nome": "alface",
+      "quantidade": 11.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "batata",
+      "quantidade": 5.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-08"
+     },
+     {
+      "nome": "batata-doce",
+      "quantidade": 6.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-16"
+     },
+     {
+      "nome": "cebola",
+      "quantidade": 10.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "chuchu",
+      "quantidade": 11.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "couve-flor",
+      "quantidade": 1.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-14"
+     },
+     {
+      "nome": "ervilha fresca",
+      "quantidade": 700.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "espinafre",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-02"
+     },
+     {
+      "nome": "milho verde",
+      "quantidade": 3.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "pepino",
+      "quantidade": 2.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-14"
+     },
+     {
+      "nome": "tomate",
+      "quantidade": 10.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-13"
+     },
+     {
+      "nome": "vagem",
+      "quantidade": 1000.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-14"
+     },
+     {
+      "nome": "creme de leite",
+      "quantidade": 300.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-10"
+     },
+     {
+      "nome": "iogurte natural",
+      "quantidade": 1000.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "leite integral",
+      "quantidade": 600.0,
+      "unidade": "ml",
+      "categoria": "laticínios",
+      "validade": "2026-10-26"
+     },
+     {
+      "nome": "manteiga",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "nata",
+      "quantidade": 600.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-17"
+     },
+     {
+      "nome": "queijo coalho",
+      "quantidade": 300.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "queijo minas",
+      "quantidade": 200.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-24"
+     },
+     {
+      "nome": "requeijão",
+      "quantidade": 200.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "extrato de tomate",
+      "quantidade": 800.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-31"
+     },
+     {
+      "nome": "leite de coco",
+      "quantidade": 700.0,
+      "unidade": "ml",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-27"
+     },
+     {
+      "nome": "molho shoyu",
+      "quantidade": 600.0,
+      "unidade": "ml",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-11-16"
+     },
+     {
+      "nome": "mostarda",
+      "quantidade": 100.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-11-05"
+     },
+     {
+      "nome": "grão-de-bico cozido",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "ovos e proteínas vegetais",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "filé de tilápia",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "arroz cozido",
+      "quantidade": 250.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "caldo de legumes caseiro",
+      "quantidade": 900.0,
+      "unidade": "ml",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "frango desfiado",
+      "quantidade": 800.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "purê de batata",
+      "quantidade": 750.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-06"
+     },
+     {
+      "nome": "tortilla de trigo",
+      "quantidade": 1.0,
+      "unidade": "un",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-05"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "D4",
+   "tools_esperadas": [
+    "buscar_receitas_similares",
+    "check_geladeira",
+    "verificar_validade",
+    "criar_receita"
+   ],
+   "complexidade": "dificil",
+   "ingredientes_prioritarios": [
+    "espinafre",
+    "peito de peru",
+    "manteiga",
+    "frango desfiado",
+    "coxa de frango",
+    "cebolinha",
+    "morango",
+    "pera",
+    "uva",
+    "alface",
+    "iogurte natural",
+    "hortelã",
+    "laranja",
+    "cebola",
+    "filé de tilápia",
+    "tortilla de trigo"
+   ],
+   "ingredientes_vencidos": [
+    "presunto",
+    "chuchu",
+    "ervilha fresca",
+    "queijo coalho"
+   ],
+   "resposta_referencia": "Adaptação de shakshuka (ovos + molho de tomate/pimentão) aos itens disponíveis. Prioritários: ['espinafre', 'peito de peru', 'manteiga', 'frango desfiado', 'coxa de frango', 'cebolinha', 'morango', 'pera', 'uva', 'alface', 'iogurte natural', 'hortelã', 'laranja', 'cebola', 'filé de tilápia', 'tortilla de trigo']. Proibidos (vencidos): ['presunto', 'chuchu', 'ervilha fresca', 'queijo coalho'].",
+   "historico_status": "acerto",
+   "historico_observacao": ""
+  },
+  "metadata": {
+   "id_cenario": "D4",
+   "complexidade": "dificil",
+   "historico_status": "acerto",
+   "n_itens_geladeira": 47
+  },
+  "split": "dificil"
+ },
+ {
+  "inputs": {
+   "pergunta": "Quero um prato sem carne, inspirado em receitas de stir-fry, usando o que vence e o que mais tiver na geladeira.",
+   "geladeira": {
+    "seed": 2041,
+    "data_referencia": "2026-10-02",
+    "itens": [
+     {
+      "nome": "suco de laranja",
+      "quantidade": 200.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-11-04"
+     },
+     {
+      "nome": "água de coco",
+      "quantidade": 600.0,
+      "unidade": "ml",
+      "categoria": "bebidas e outros",
+      "validade": "2026-12-01"
+     },
+     {
+      "nome": "bacon",
+      "quantidade": 1000.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "bife de alcatra",
+      "quantidade": 550.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "linguiça toscana",
+      "quantidade": 850.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-02"
+     },
+     {
+      "nome": "lombo suíno",
+      "quantidade": 1000.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "peito de frango",
+      "quantidade": 800.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "peito de peru",
+      "quantidade": 750.0,
+      "unidade": "g",
+      "categoria": "carnes",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "alecrim",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-09"
+     },
+     {
+      "nome": "cebolinha",
+      "quantidade": 1.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "coentro",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "salsinha",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "ervas frescas",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "abacate",
+      "quantidade": 2.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-12"
+     },
+     {
+      "nome": "abacaxi",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "mamão",
+      "quantidade": 1.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-07"
+     },
+     {
+      "nome": "maracujá",
+      "quantidade": 9.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-13"
+     },
+     {
+      "nome": "maçã",
+      "quantidade": 5.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "morango",
+      "quantidade": 250.0,
+      "unidade": "g",
+      "categoria": "frutas",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "pera",
+      "quantidade": 7.0,
+      "unidade": "un",
+      "categoria": "frutas",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "uva",
+      "quantidade": 900.0,
+      "unidade": "g",
+      "categoria": "frutas",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "alface",
+      "quantidade": 2.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-13"
+     },
+     {
+      "nome": "alho",
+      "quantidade": 2.0,
+      "unidade": "cabeça",
+      "categoria": "hortaliças",
+      "validade": "2026-10-16"
+     },
+     {
+      "nome": "alho-poró",
+      "quantidade": 5.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "batata-doce",
+      "quantidade": 4.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-10"
+     },
+     {
+      "nome": "beterraba",
+      "quantidade": 3.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "cebola",
+      "quantidade": 4.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-11"
+     },
+     {
+      "nome": "cogumelo paris",
+      "quantidade": 950.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-10"
+     },
+     {
+      "nome": "couve",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-16"
+     },
+     {
+      "nome": "couve-flor",
+      "quantidade": 9.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "ervilha fresca",
+      "quantidade": 950.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-09"
+     },
+     {
+      "nome": "espinafre",
+      "quantidade": 2.0,
+      "unidade": "maço",
+      "categoria": "hortaliças",
+      "validade": "2026-10-16"
+     },
+     {
+      "nome": "pimentão verde",
+      "quantidade": 8.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "pimentão vermelho",
+      "quantidade": 11.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "repolho",
+      "quantidade": 9.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "tomate",
+      "quantidade": 11.0,
+      "unidade": "un",
+      "categoria": "hortaliças",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "vagem",
+      "quantidade": 300.0,
+      "unidade": "g",
+      "categoria": "hortaliças",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "manteiga",
+      "quantidade": 300.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "nata",
+      "quantidade": 1000.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-09"
+     },
+     {
+      "nome": "queijo muçarela",
+      "quantidade": 700.0,
+      "unidade": "g",
+      "categoria": "laticínios",
+      "validade": "2026-10-15"
+     },
+     {
+      "nome": "pesto",
+      "quantidade": 550.0,
+      "unidade": "g",
+      "categoria": "molhos e condimentos",
+      "validade": "2026-10-01"
+     },
+     {
+      "nome": "grão-de-bico cozido",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "ovos e proteínas vegetais",
+      "validade": "2026-11-01"
+     },
+     {
+      "nome": "lentilha cozida",
+      "quantidade": 500.0,
+      "unidade": "g",
+      "categoria": "ovos e proteínas vegetais",
+      "validade": "2026-10-19"
+     },
+     {
+      "nome": "camarão",
+      "quantidade": 300.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "salmão",
+      "quantidade": 350.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-03"
+     },
+     {
+      "nome": "sardinha fresca",
+      "quantidade": 750.0,
+      "unidade": "g",
+      "categoria": "peixes e frutos do mar",
+      "validade": "2026-10-04"
+     },
+     {
+      "nome": "arroz cozido",
+      "quantidade": 950.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-05"
+     },
+     {
+      "nome": "feijão cozido",
+      "quantidade": 650.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-09-30"
+     },
+     {
+      "nome": "purê de batata",
+      "quantidade": 800.0,
+      "unidade": "g",
+      "categoria": "prontos e sobras",
+      "validade": "2026-10-06"
+     }
+    ]
+   }
+  },
+  "outputs": {
+   "id_cenario": "D5",
+   "tools_esperadas": [
+    "buscar_receitas_similares",
+    "check_geladeira",
+    "verificar_validade",
+    "criar_receita"
+   ],
+   "complexidade": "dificil",
+   "ingredientes_prioritarios": [
+    "linguiça toscana",
+    "lombo suíno",
+    "peito de frango",
+    "morango",
+    "vagem",
+    "salmão",
+    "peito de peru",
+    "cebolinha",
+    "salsinha",
+    "beterraba",
+    "camarão",
+    "sardinha fresca",
+    "bacon",
+    "tomate",
+    "arroz cozido"
+   ],
+   "ingredientes_vencidos": [
+    "maçã",
+    "alho-poró",
+    "repolho",
+    "manteiga",
+    "pesto",
+    "feijão cozido"
+   ],
+   "resposta_referencia": "Stir-fry SEM carne/peixe, inspirado em receitas reais, priorizando o que vence. Prioritários: ['linguiça toscana', 'lombo suíno', 'peito de frango', 'morango', 'vagem', 'salmão', 'peito de peru', 'cebolinha', 'salsinha', 'beterraba', 'camarão', 'sardinha fresca', 'bacon', 'tomate', 'arroz cozido']. Proibidos (vencidos): ['maçã', 'alho-poró', 'repolho', 'manteiga', 'pesto', 'feijão cozido'].",
+   "historico_status": "acerto",
+   "historico_observacao": ""
+  },
+  "metadata": {
+   "id_cenario": "D5",
+   "complexidade": "dificil",
+   "historico_status": "acerto",
+   "n_itens_geladeira": 48
+  },
+  "split": "dificil"
+ }
+]
